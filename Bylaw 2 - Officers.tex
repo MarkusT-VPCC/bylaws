@@ -1,0 +1,153 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Bylaw 2}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Chapter\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Bylaw 2} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Bylaw 2
+ 
+	The Officers Bylaw
+ 
+	Lassonde Engineering Society
+	}
+
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: November 29th, 2021
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding Bylaw 1, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header height consistency.
+\begin{easylist}
+&& General
+    &&& In this document, “Meetings” shall include all General Meetings and regular Meetings of the Board of Directors
+        
+\end{easylist}
+\clearpage
+
+\section{President}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& President
+    &&& The President is responsible for:
+        &&&& Giving direction to the Society;
+        &&&& Ensuring the mandates of each Vice-President are completed;
+        &&&& Correspondence on behalf of the Society;
+        &&&& Transition of the Engineering Society;
+        &&&& Liaising with the Faculty and University; and
+        &&&& Liaising with external student organizations.
+    &&& Be an ex-officio member of all Standing Committees of the Board
+    &&& The President must ensure that all forms required by the University and Faculty for ratification, registration, office-space, and funding are completed and submitted on time.
+    &&& The President shall have the authority to execute any action or act on the Society’s behalf in any matter authorized by legislation, the Constitution, Bylaws, or Resolution of the Board unless it has been specifically assigned to another person.
+\end{easylist}
+\clearpage
+
+\section{Vice-Presidents}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start3=0)
+\begin{easylist}
+&& Vice-President Finance
+    &&& The Vice-President Finance is responsible for overseeing the commercial operations of the society.
+    &&& The Vice-President Finance shall report, at all regular Meetings of the Board of Directors, the Society’s financial position, including but not limited to:
+        &&&& A comparison of actual income and expenses pertaining to the budget; and
+        &&&& A statement of expected income and expenses.
+    &&& The Vice-President Finance shall, within two (2) weeks following the end of the fiscal year as defined in Bylaw 1, submit the Society’s accounts and year-end financial statements to the auditors.
+    &&& The Vice-President Finance shall present the auditor’s report at the Annual General Meeting during their term of office.
+    &&& The Vice-President Finance is responsible for cheque requisition and approval.
+    &&& The Vice-President Finance, in conjunction with the Executive Committee and Finance Committee, shall prepare three budgets for Board approval:
+        &&& Summer Budget presenting a general overview of the planned financial priorities which shall be presented at the July Board meeting;
+        &&&& Fall Budget containing detailed projections of planned revenues and expenditures which shall be presented at the September Board meeting;
+        &&&& Winter Budget derived from the Fall Budget including revisions based on actual revenues and expenditures which shall be presented at the January Board meeting.
+    &&& The Vice-President Finance is responsible for the fiscal prudence of the Society.
+&& Vice-President Communications
+    &&& The Vice-President Communications shall ensure that records for all Meetings are being maintained and published online.
+    &&& The Vice-President Communications shall be responsible for the collection of year-end reports from all outgoing Directors and Officers.
+    &&& The Vice-President Communications shall be responsible for maintaining a current list of contact information for all Officers, Project Directors, Associated Entities, Class Representatives, and Board of Directors.
+    &&& The Vice-President Communications shall manage the structural development of the governing documents of the Society.
+    &&& The Vice-President Communications shall be responsible for overseeing the branding of Society services, operations, and events.
+    &&& The Vice-President Communications shall be responsible for overseeing the use of communications media to market Society services, operations, and events.
+    &&& The Vice-President Communications shall be responsible for maintaining the e-mail address using the “lasengsoc.com” domain.
+&& Vice President External
+    &&& The Vice-President External is responsive for serving as the LES-appointed representative to the following organizations:
+        &&&& Canadian Federation of Engineering Students
+        &&&& Engineering Student Societies’ Council of Ontario
+    &&& Acting as the primary contact of the LES to our provincial, national, and international partners such as OSPE and PEO
+    &&& Ensuring that all LES members are aware of the opportunities and the benefits of provincial, national, and international cooperation
+&& Vice-President Student Life
+    &&&  The Vice-President Student Life shall be responsible for recognizing Affiliated Clubs and dealing with student issues pertaining to the membership of those clubs.
+    &&& The Vice-President Student Life shall be responsible for keeping the membership informed about club opportunities and ensuring that the Society is providing support to Affiliated Clubs.
+    &&& The Vice-President Student Life is responsible for organizing, coordinating, and managing all Society events.
+    &&& The Vice-President Student Life is responsible for organizing LES representation at Lassonde’s Orientation Week.
+    &&& The Vice-President Student Life is responsible for all spirit related initiatives in the Society.
+    &&& The Vice-President Student Life shall lead the Society’s mentorship program.
+&& Vice-President Academic
+    &&& The Vice-President Academic is responsible for overseeing the development, implementation, and maintenance of services and/or activities that serve students’ best interests with regards to their academic and professional developments.
+    &&& The Vice-President Academic is responsible for maintaining and disseminating information on the academic regulations and procedures of the Faculty and University
+    &&& The Vice-President Academic is responsible for conducting a academic survey for all disciplines at least once per term. All findings must be submitted in a report to the Assistant Dean of Students.
+    &&& The Vice-President Academic is responsible for managing the Society Stances documents
+
+\end{easylist}
+\clearpage
+
+\end{document}

@@ -1,0 +1,522 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Bylaw 1}
+\author{Lassonde Engineering Society}
+\date{}
+\singlespacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Article\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Bylaw 1} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Bylaw 1
+ 
+	The Constitution
+ 
+	Lassonde Engineering Society
+	}
+ 
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: November 29th, 2021
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents
+\let\thefootnote\relax\footnote{{If you have any questions regarding Bylaw 1, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header height consistency.
+\begin{easylist}
+&& General
+    &&& This document establishes the association of students enrolled in all undergraduate engineering programs at York University
+    &&& The name of the association shall be “The Lassonde Engineering Society”, hereafter referred to as “LES”.
+    &&& The Head Office of LES shall be in the City of Toronto, at such place as the Board of Directors of the Society may fix from time to time
+    &&& The fiscal year of LES shall conclude on 31 May each year
+    &&& The Seal, an impression whereof is stamped below shall be the Seal of the Society
+\begin{center}
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}  
+\end{center}
+&& Interpretation
+    &&& In this document and all other governing documents:
+        &&&& York University shall be referred to as “University”
+        &&&& Lassonde School of Engineering shall be referred to as “Faculty”;
+        &&&& Members of the Society shall be referred to as “Members”, as specified in Article 3;
+        &&&& President and all Vice-Presidents of the Society shall be referred to as “Officers”, as specified in Article 5;
+        &&&& Members of the Board of Directors shall be referred to as “Board Members”, as specified in Article 6;
+        &&&& A person who has the right to authorize financial transactions on behalf of the Society shall be referred to as a “Signing Authority”;
+        &&&& The process by which a position-holder of the Society may be removed from their position without their consent shall be referred to as “Recall”;
+        &&&& A Member that is entering their first year of an undergraduate program within the Lassonde School of Engineering shall be referred to as “First Year”.
+        &&&& All other words shall carry their common dictionary definitions.
+    &&& In the event of any ambiguity in a by-law or policy, its interpretation shall be ruled upon by the Speaker. The Speaker shall commit an item to the Policy and Rules Committee to review the Bylaw or policy found to be in ambiguity and make a recommendation to the Board.
+    &&& The Speaker shall rule out of order any vote on an interpretation that is not reasonably plausible in the existing constitution or policy or that would contravene any act of the Board Members
+    &&& The interpretation and enforcement of Bylaw 5 during Election Periods, to the extent required to run free and fair elections, is the jurisdiction of the Chief Returning Officer (with substantive decisions subject to appeal by the process described in Bylaw 5, Chapter 11)
+        &&&& The CRO Shall consult the Speaker to ensure fair and consistent interpretations and judgements in accordance with adopted Policy and the principles of fundamental justice
+        &&&& In all other cases (i.e. interpretation of adopted Policy or the Constitution not strictly related to the administration of elections) the interpretation of the Policy Manual and Constitution rests with the Speaker in accordance with Section 1.6.2
+        
+\end{easylist}
+\clearpage
+
+\section{Dispositions}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& Mission
+\begin{flushleft}
+\normalfont
+The mission of LES is to facilitate the advancement and growth of engineering students at the Lassonde School of Engineering. LES strives to inspire Lassonde engineers to view themselves not only as competent members of a professional field, but an active and engaged members of society. We are committed to advancing a culture of understanding, inclusivity, and diversity within engineering.
+\end{flushleft}
+&& Values
+\begin{flushleft}
+\normalfont
+The LES adheres to the following core values and will ensure that all operations will be conducted in
+a manner that abides by these principles.
+\end{flushleft}
+\end{easylist}
+
+\begin{enumerate}
+    \item Equality
+    \item Inclusion
+    \item Integrity
+    \item Equity
+    \item Community
+    \item Accountability
+    \item Transparency
+    \item Spirit
+\end{enumerate}
+
+\section{Membership and Fees}
+\vspace{5mm} %Header height consistency.
+\begin{easylist}
+\ListProperties(Start3=0)
+&& General
+    &&& There shall be two (2) types of members:
+        &&&& A Member shall be a student with an active or inactive association with a program of study in the Lassonde School of Engineering (as defined by the Faculty), excluding those students with an inactive association who are ineligible to register.
+        &&&& An Alumni Member shall have received an engineering undergraduate degree from the York University Lassonde School of Engineering
+&& Fees
+    &&& Members shall have paid in full or successfully deferred their respective Membership Fees for the Fall and Winter semesters of each Academic Year that they are considered a member.
+    &&& As of 2020, a fee of \$1 per credit shall be collected from all eligible Membership per semester, as defined in Section 3.1. This fee shall increase every year thereafter based on the Canadian Price Index (CPI).
+    &&& The membership fee shall be non-refundable.
+    &&& Any fees to be created or increased except as specified in Section 3.2.3 shall be done so by the Membership through a referendum
+    &&& Any fees to be decreased or removed except as specified in Section 3.2.3 shall be done so by the Membership through a referendum
+    &&& Any fees to be decreased or removed except as specified in Section 3.2.3 shall be done so by one of:
+        &&&& A simple majority vote in a referendum of the Membership; or
+        &&&& A three-quarters majority vote at a Semi-Annual General Meeting; or
+        &&&& A unanimous vote at a Board of Directors Meeting
+&& Rights of the Membership
+    &&& All rights and responsibilities of the Membership described in this document and in other Bylaws and Policies of the Society shall pertain only to Members.
+    &&& Alumni members shall enjoy no rights of Membership other than the right to speak at General Meetings and at the meetings of the Board of Directors.
+    
+\end{easylist}
+
+\section{General Meetings}
+\begin{easylist}
+\ListProperties(Start4=0)
+&& General
+ &&& The duties specified in this chapter, where they relate to:
+    &&&& General Meetings, are the responsibility of the Vice-President Communications
+    &&&& Other General Meetings, are the responsibility of the Vice-President Communications
+&& Calling a Meeting
+    &&& General Meetings (GM) shall be called in the periods of February - March (Winter) and October - November (Fall).
+    &&& A General Meeting shall be called upon:
+        &&&& A resolution of the Board of Directors requesting such a meeting;
+        &&&& The receipt of a requisition by the Speaker requesting such a meeting signed by forty (40) Members;
+        &&&& A resolution of the Officers requesting such a meeting; or
+        &&&& A resolution passed at a General Meeting such as the Semi-Annual General Meeting during that same academic year.
+        &&&& Resolution or petition as referred to in 4.2.2. shall specify the purpose of the General Meeting.
+    &&& Resolution or petition as referred to in 4.2.2. shall specify the purpose of the General
+    Meeting.
+&& Agenda
+    &&& The agenda for the Fall General Meeting (FGM) shall include motions to:
+        &&&& Ratify any amendments to Bylaw 1
+        &&&& Perform any other functions specified by the Not-for-Profit Corporations Act of Ontario and other relevant legislation
+    &&& The agenda for the Winter General Meeting (WGM) shall include motions to:
+        &&&& Appoint an auditor for the current year;
+        &&&& Receive the auditor’s report for the previous year;
+        &&&& Authorize the Board of Directors to set the remuneration for the auditor for the current year;
+        &&&& Ratify Level I Directors
+        &&&& Ratify any amendments to Bylaw 1; and
+        &&&& Perform any other functions specified by the Not-for-Profit Corporations Act of Ontario and other relevant legislation
+    &&& The agenda for any other General Meeting shall contain only those motions pertaining to the matters specified under 4.2.3.
+    &&& Motions and discussion items from any Member shall be added to the agenda of a General Meeting upon receipt of notice in writing to the Speaker at any time earlier than ten (10) days prior to the meeting.
+    &&& The agenda of a General Meeting shall be circulated to the Membership seven (7) days prior to the General Meeting.
+&& Notice
+    &&& Notice shall be given at least eleven (11) business days prior to any General Meeting
+    &&& Notice shall be given:
+        &&&& Electronically through email to the Membership;
+        &&&& In a Society publication which is disseminated at least fourteen (14) days prior to the General Meeting; and
+        &&&& Through written notice posted in the Society office.
+    &&& Without notice as defined in Sections 4.4.1 and 4.4.2, no motions passed at a General Meeting shall have force
+    &&& If a General Meeting is adjourned for less than thirty (30) days, notice by the aforementioned means shall be given at least seven (7) days prior to the meeting that continues the adjourned meeting.
+&& Voting 
+    &&& Each Member of the Society shall be entitled to one (1) vote at General Meetings.
+    &&& A Member may proxy their vote at a General Meeting to any member:
+        &&&& Every proxy must be in a form that complies with the regulations of the Ontario Not-for-Profit Corporations Act, Section 6.4.3.
+        &&&& The Proxyholder shall bring the signed proxy form to the Speaker at the start of an SAGM
+    &&& No person shall hold more than two (2) votes at a General Meeting, including their own
+&& Quorum
+    &&& Quorum is thirty (30) Members present, in person or by proxy
+    &&& At least half of quorum shall be maintained after the meeting has started
+&& Order
+    &&& The Speaker of the Board of Directors shall preside over General Meetings
+    &&& All General Meetings shall be governed by Robert’s Rules of Order where these rules of order do not conflict with the Bylaws of the society
+    &&& The Speaker shall not hold more than one (1) vote at any General Meeting
+&& Publication of Financial Statements
+    &&& The Society’s audited financial statements are to be submitted to the Board of Directors before they are circulated in advance of the Winter Semi-Annual General Meeting.
+    &&& At least twenty-one (21) days before the Annual General Meeting, the Vice-President Finance shall cause a copy of the Society’s audited financial statements and the auditor’s report to be:
+        &&&& Published online on the Society’s website and all students given notice of their availability; and
+        &&&& Submitted to the Center for Student Community \& Leadership Development and any other University offices that require them.
+        
+\end{easylist}
+
+\section{Officers}
+\begin{easylist}
+\ListProperties(Start5=0)
+&& General
+    &&& The Officers of the Society shall be the President, the Vice-President Finance, the Vice-President Communications, the Vice-President External, the Vice-President Student Life, and the Vice President Academic.
+    &&& Each Officer shall be elected by the Membership, as defined in Bylaw 5
+    &&& In case of infirmity, death, resignation, or other form of ineligibility of an Officer:
+        &&&& The President shall assume said Officer’s responsibilities, unless the President’s position is the one in question, in which case the Vice-President Finance shall assume the President’s responsibilities;
+        &&&& An Election for said Officer’s positions shall be held as early as possible, as described in Bylaw 5; and
+        &&&& Should the Vice-President Finance be unable to fulfill these responsibilities, the following order of succession shall apply: Vice-President Communications, Vice-President External, Vice-President Student Life, and Speaker; and
+        &&&& All other Officers may be candidate to replace said Officer, by resigning from their positions
+    &&& A President once elected shall only hold the position for a maximum of one fiscal term
+    &&& An Officer once elected shall only hold the position for a maximum of two consecutive fiscal years.
+    &&& Except in cases of Section 5.1.3, no person shall hold two Officer positions simultaneously.
+    &&& The term of office of each Officer shall commence when they take the Officer’s Agreement and shall end upon the respective incoming Officer’s Agreement the following year.
+    &&& Each Officer shall oversee Directors, as specified in Bylaw 3.
+    &&& Each Officer shall have other duties as may be outlined in Bylaws or Polices.
+    &&& Officers shall be official representative of the Society, in the following order of precedence: President, Vice-President Finance, Vice President Communications, Vice-President External, Vice-President Student Life, and Vice President Academic.
+    &&& Each Officer shall be a Member of the Society.
+    &&& Each Officer shall be at least eighteen (18) years of age.
+    &&& Each Officer shall attend a form of or equivalent of Leadership Training and Ethics Training, before the November month of their term, provided by York University and their resources or from an external organization deemed reliable at a meeting of the Board of Directors.
+&& President
+    &&& The President shall be the Chief Executive Officer of the Society
+    &&& The President shall be a Member that has previously held any Society position or is at least entering their third year of study of an engineering undergraduate program in the Faculty in September of their term of office.
+    &&& The President shall not be on co-op during the Fall and Winter semesters of their term.
+    &&& In May following the election of the President, the Vice-President Finance will confirm that the President is entering their third year of an engineering undergraduate program
+    &&& The President shall maintain the Seal of the Society
+&& Vice-President Finance
+    &&& The Vice-President Finance shall be the Chief Financial Officer of the Society
+    &&& The Vice-President Finance shall be a Member that has previously held any Society position and is entering their second year of study of an engineering undergraduate program in the Faculty in September of their term of office.
+    &&& The Vice-President Finance shall be responsible for the preparation of the budgets for approval by the Board of Directors as specified in the Bylaws.
+    &&& In accordance with the Not-for-Profit Corporations Act of Ontario and generally accepted accounting principles, the Vice-President Finance shall be responsible for the keeping of all accounting records with respect to all finance and like transactions of the Society.
+    &&& Without derogating form Section 5.3.3, the Vice-President Finance shall be responsible for the maintenance of records of:
+        &&&& All the sums of money received and disbursed by the Society and the matters with respect to which receipt and disbursement took place;
+        &&&& All sales and purchases of the Society;
+        &&&& The assets and liabilities of the Society;
+        &&&& All other transactions affecting the financial position of the Society; and
+        &&&& Trademarks, copyrights, and other intellectual property.
+    &&& The Vice-President Finance shall be responsible for the security of the financial records, property, and offices of the Society, and overseeing access thereto.
+    &&& The Vice-President Finance shall be responsible for reporting the expenditures of the Society’s funds in accordance with the budget approved by the Board of Director
+    &&& The Vice-President Finance shall not be on co-op during the Fall and Winter semesters of their term.
+&& Vice-President Communications
+    &&& In accordance with the provisions of the Not-for-Profit Corporations Act of Ontario, the Vice-President Communications shall be responsible for the maintenance of:
+        &&&& A copy of the letters patent and any supplementary letters patent issued to the Society;
+        &&&& All Bylaws, Policies and Special Resolutions of the Society;
+        &&&& A register of all Members which shall include their names, addresses and phone numbers; and
+        &&&& All minutes and associated documents.
+    &&& For all purposes of the Not-for-Profit Corporations Act of Ontario or other legislation, the Vice-President Communications shall serve as the Secretary of the Corporation.
+    &&& The Vice-President Communications shall, upon request by a Member, make available to that Member the full and correct version of any document of the Society within ten (10) business days, including: Bylaws, Policies, Special Resolutions, and Minutes and their associated documents.
+    &&& The Vice-President Communications shall provide a full and correct version of the Bylaws and Policies of the Society to the Society’s website after any amendment to such documents within thirty (30) days of said amendment or before the following monthly Board of Directors Meeting, whichever should occur first.
+    &&& The Vice-President Communications shall be responsible for all Society publications.
+&& Vice-President External
+    &&& The Vice-President External shall be responsible for representing the Lassonde Engineering Society to the following organizations:
+        &&&& Engineering Societies Council of Ontario (ESSCO)
+        &&&& Canadian Federation of Engineering Students (CFES)
+    &&& The Vice-President External shall act as the primary liaison to all external partners.
+    &&& The Vice-President External shall not be on co-op during the Fall and Winter semesters of their term.
+&& Vice-President Student Life
+    &&& The Vice-President Student Life is responsible for promoting the social and cultural well-being of the Society’s members.
+    &&& The Vice-President Student Life shall be responsible for outreach and social activities as specified in the Bylaws.
+    &&& The Vice-President Student Life shall not be on co-op during the Fall and Winter of their term.
+&& Vice-President Academic
+    &&& The Vice-President Academic shall represent the students’ interest with regards to their academic and professional development.
+    &&& The Vice-President Academic shall be responsible for maintaining and disseminating information on the academic regulations and procedures of the Faculty and University.
+    &&& The Vice-President Academic shall be responsible or operation and improving academic services that the Engineering Society provides to its Members.
+    &&& The Vice-President Academic shall not be on co-op during the Fall and Winter semesters of their term.
+&& Signing Officers 
+    &&& The Signing Officers of the Society shall be the President and the Vice-President Finance
+    &&& Any expenditure of the Society’s funds requires two (2) signatures of the Signing Officers
+&& Recall
+    &&& An Officer shall be automatically recalled upon cessation of their membership of the Society.
+    &&& An Officer may only be recalled by at least two-thirds vote at a Board of Directors meeting
+    &&& An Officer shall adhere to a standard of conduct that includes the following:
+        &&&& An Officer shall not be absent from more than two (2) regular meetings of the Board of Directors without regrets
+        &&&& An Officer shall not be absent from more than three (3) regular meetings of the Board of Directors (except for meetings held for the sole purpose of ratification of election results) over the course of their term.
+    &&& If an Officer breaches the standard of conduct outlined in Section 5.11.3, the Speaker shall submit a motion at the next regular meeting of the Board of Directors following the breach of conduct for the purpose of noticing the Officer. The Officer in question will have the opportunity to defend their breach of conduct at the meeting of the Board of Directors in which the motion is submitted by the Speaker.
+    &&& An Officer’s failure to meet the standard of conduct outlined in section 5.9.3 may be neglected if the Officer’s circumstances are proven to be extraneous, at the discretion of the Speaker:
+        &&&& The Speaker shall inform the Board of Directors any time the failure to meet the standard of conduct is neglected.
+        &&&& A Member of the Board of Directors may request additional information from the Speaker regarding the Speaker’s decision to neglect a failure to meet the standard of conduct.
+        &&&& If any personal information must be disclosed by the Speaker in order to meet the request of a Member of the Board of Directors described in Section 5.9.5b, the Speaker must gain permission from the person whose information will potentially be disclosed.
+        &&&& If such permission is granted, a motion must be submitted to move the meeting to an in- camera session before the Speaker can meet the Member’s request. If the permission is not granted, the Member’s request as described in Section 5.9.5b will not be fulfilled.
+    &&& In all other situations not specified in Section 5.9.3, upon a resolution to recall an Officer, the Chief Returning Officer shall chair a special Board of Directors Meeting for the purpose of recalling the Officer.
+    &&& Any Officer successfully recalled are ineligible to run for any Officer or Board position
+    
+\end{easylist}
+
+\section{Board of Directors}
+\begin{easylist}
+\ListProperties(Start6=0)
+&& General
+    &&& The business and affairs of the Society shall be managed by the Board of Directors
+&& Directors of the Board
+    &&& The Board shall be comprised of:
+        &&&& The six (6) Officers of the Engineering Society;
+        &&&& Seven (7) Discipline Representatives as follows:
+            &&&&& Civil Engineering Representative;
+            &&&&& Computer Engineering Representative;
+            &&&&& Electrical Engineering Representative;
+            &&&&& Mechanical Engineering Representative;
+            &&&&& Software Engineering Representative;
+            &&&&& Geomatics Engineering Representative;
+            &&&&& Space Engineering Representative;
+        &&&& Four (4) representatives from First Year.
+    &&& Discipline Representatives are responsible for providing updates and raising concerns, as necessary, between their respective Faculty Departments and the Board of Directors.
+    &&& There shall be up to three (3) Honorary Returning Officer(s) (HRO) and shall be a non-voting directorship with speaking rights, who have held a Board of Directors position in a previous term.
+&& Elections and Term of Office
+    &&& The results of any election held by the Society shall become official when they are ratified by a general resolution of the Board.
+    &&& The Board shall not refuse to ratify the results of an election conducted in accordance with the Bylaws of the Society
+    &&& Each Board member’s term of office shall begin at the adjournment of the meeting at which their election is ratified by the Board.
+    &&& The term of the First-Year Representative position ends at the adjournment of the May Board of Directors Meeting.
+    &&& A Member of the Board of Directors may resign from their position at any point during their term by giving a formal written notice to the Vice-President Communications and Speaker.
+    &&& No Member of the Society may hold more than one (1) position on the Board of Directors at any given time.
+    &&& If a seat on the Board of Directors is left vacant after the Board of Directors Election Period and prior to the First Year Board of Directors Election Period as defined in Bylaw 5, the Chief Returning Officer shall hold an election in accordance with the relevant sections of Bylaw 5.
+        &&&& The appointment process shall include an open call to the Members of the relevant Constituency, an application, and selection by the Board of Directors
+        &&&& The notice for such an appointment process shall be communicated no later than the notice for said meeting of the Board of Directors
+&& Votes and Quorum
+    &&& Each Board Member shall have one (1) vote on each motion to be decided by the Board.
+    &&& Quorum of the Board shall be at least two-thirds (2/3) of the members of the Board present.
+\vspace{7mm}
+&& Reimbursement
+    &&& Every Board Member and Level I Directors, their heirs, executors and administrators, and estate and effects, respectively shall be reimbursed and saved harmless out of the funds of the Society, from and against:
+        &&&& All costs, charges and expenses whatsoever that are sustained or incurred by the Board Member in or about any action, suit or proceeding that is brought, commenced and prosecuted against the Board Member for, or in any respect of, any act, deed, matter or thing whatsoever made, done or permitted by the Board Member, in or about the execution of the duties of the Board Member’s office; and
+        &&&& All other costs, charges or expenses that resulted, were sustained or were incurred by the Board Member in, about or in relation to the affairs thereof, except such costs, charges or expenses as are occasioned by the Board Member’s own willful neglect or default.
+&& Board Members' Interest in Contracts
+    &&& Every Board Member shall follow the provisions of the Ontario Not-for-Profit Corporations Act, Section 41
+&& Speaker
+    &&& The Speaker shall act as Chair of the Board of Directors and shall ensure proper procedure during all meetings of the Board.
+    &&& In the absence of the Speaker, the President shall act as Chair of the Board, except as determined by a majority vote of the Board.
+    &&& The Speaker shall be a non-voting member of the Board of Directors.
+    &&& The Speaker shall use applicable law, the Constitution of the Society, other Bylaws of the Society, York University policy, Faculty policy, Robert’s Rules of Order, their own discretion, and a flip of a coin, in that order, in determining all questions of procedure before them.
+    &&& Only the speaker shall have the authority to bar Board members from voting on a motion where the Member has a conflict to interest.
+    &&& All decisions of the Speaker may be reversed by a two-thirds majority vote of the Board, except regarding applicable law, the Constitution and Bylaws of the Society from which there is no appeal.
+    &&& The Speaker shall attend a form of or equivalent of Equity Training and Sexual Violence Prevention and Response Training, before the November month of their term, provided by York University and there resources or form an external organization deemed reliable at a meeting of the Board of Directors.
+&& Meetings
+    &&& The rules contained in the latest edition of Robert’s Rules of Order Newly Revised shall govern the Board of Directors, and in which they are not inconsistent with the Bylaws or the special rules of order of this Society.
+    &&& The Board of Directors shall meet once a month except for the month of December.
+    &&& The President may call a meeting of the Board of Directors, and shall call a meeting within one (1) week of receiving a written request to call such a meeting signed by one half (1/2) of the Directors of the Board
+    &&& Any Member may attend, speak, and move or second motion at meetings of the Board of Directors subject to rules of order.
+    &&& The Speaker shall ensure that an agenda is circulated to all Board Members five (5) days before any meeting of the Board.
+    &&& All motions submitted by a Member to the Speaker must be at least six (6) business days before a meeting of the Board of Directors shall be included on that agenda:
+        &&&& The Speaker shall edit all motions for correct usage of the English language and clarity;
+        &&&& The Speaker shall have the authority to reject any motion that does not comply with the Constitution and Bylaws of the Society, Robert’s Rules of Order or the Dispositions outlined in Article 2.
+    &&& Unless its consideration is unanimously approved by the Board, no substantive motion shall be considered other than those on the agenda, or those to clarify motions on the agenda.
+    &&& All members participating in the meeting by teleconference or video-conference on the platform chosen by the Speaker shall be deemed present and in attendance of the meeting.
+        &&&& Intent to participate in the meeting by foregoing shall be communicated to the Speaker no less than twenty-four (24) hours before the start of the meeting.
+        &&&& Members who have expressed intent to participate in the meeting by remote means, and have taken reasonable steps to do so, but ultimately prevented from participating due to technical issues, shall not be deemed absent for the purpose of notice, except at the discretion of the Speaker.
+    &&& All Officers of the Board shall submit a report of their activities to the regular Board of Directors meeting agenda at all regular Board of Directors meetings
+&& Special Meetings
+    &&& The President or Speaker may call a Special Meeting of the Board of Directors and shall call a meeting within one (1) week of receiving a written request to call such a meeting signed by one half (1/2) of the members of the Board.
+    &&& Any petition to hold a Special Meeting shall specify the purpose of the Meeting and no business shall be conducted at the Special Meeting unless it is related to purpose for which the Meeting was called.
+&& Notice of Meetings
+    &&& Notice of meetings of the Board of Directors, which shall also include the agenda for that meeting, shall be given electronically or in writing to every Member by the Vice-President Communications at least five (5) days before the time chosen for such meeting.
+    &&& At the Speaker’s discretion, a Special Meeting may be called with a notice of twenty-four (24) hours provided for a meeting warrants immediate disposition.
+    &&& Notice is not required for a meeting that continues an adjourned meeting of Directors if the time and place of the continued meeting is announced at the meeting that is adjourned.
+&& Minutes
+    &&& Minutes of all meetings of the Board of Directors shall be the responsibility of the Vice-President Communications and be kept in accordance with the Bylaws.
+    &&& Copies of all Board meeting minutes shall be circulated to all Board members and added to the agenda for the upcoming Board meeting for approval.
+    &&& Minutes shall indicate each voting member’s vote on each motion, whether in favour, against, or in abstention
+&& Recall
+    &&& A Member of the Board of Directors shall be automatically recalled upon cessation of their membership of the constituency or constituencies that elected them.
+    &&& A Member of the Board of Directors shall adhere to a standard of conduct that includes the following:
+        &&&& A Member of the Board of Directors shall not be absent from more than 2 regular meetings of the Board of Directors without regrets.
+        &&&& If a Member of the Board of Directors breaches the standard of conduct outlined in section 6.12.2, the Speaker shall submit a motion at the next regular meeting of the Board of Directors following the breach of conduct to call a Board of Directors meeting for the purpose of recalling the Member in question. The Member in question will have the opportunity to defend their breach of conduct at the meeting of the Board of Directors in which the motion is submitted by the Speaker.
+    &&& If a Member of the Board of Directors breaches the standard of conduct outlined in section 6.12.2, the Speaker shall submit a motion at the next regular Board meeting following the breach of conduct to recall that Member of the Board, which must be confirmed by a two-thirds (2/3) majority of the Board of Directors.
+    &&& A Member of the Board of Directors’ failure to meet the standard of conduct outlined in section 6.12.2 may be neglected if the Member of the Board of Directors’ circumstances are proven to be extraneous, at the discretion of the Speaker.
+        &&&& The Speaker shall inform the Board of Directors any time a failure to meet the standard of conduct is neglected.
+        &&&& A Member of the Board of Directors may request additional information from the Speaker about the Speaker’s decision to neglect a failure to meet the standard of conduct.
+        &&&& If any personal information must be disclosed in order for the Speaker to meet the request of a Member of the Board of Directors as described in Section 6.12.4b, the Speaker must gain permission from the person whose information will potentially be disclosed.
+        &&&& If such permission is granted, a motion must be submitted to move the meeting to an in-camera session before the Speaker may meet the Member’s request. If permission is not granted, the Member’s request as described in section 6.12.4b will not be fulfilled.
+    &&& In all other situations not specified in section 6.12.2, upon a resolution to recall a Member of the Board of Directors, the Chief Returning Officer shall chair a Board of Directors meeting for the purpose of recalling the Member in question.
+    &&& Any Board Member successfully recalled are ineligible to run for any Officer or Board position
+&& Committees
+    &&& The rules contained in the latest edition of Robert’s Rules of Order Newly Revised shall govern all Standing Committees of the Board, and in which they are not inconsistent with the Bylaws or the special rules of order of this Society.
+    &&& All decisions by Standing Committees of the Board must be approved by a majority vote of the Board of Directors
+    &&& The following shall be considered Standing Committees of the Board:
+        &&&& The Executive Committee;
+        &&&& The Finance Committee;
+        &&&& The Policy and Rules Committee;
+        &&&& The Academic Committee;
+        &&&& The Student Life Committee;
+        &&&& The External Relations Committee.
+        &&&& The Public Relations Committee;
+    &&& The Executive Committee shall consist of the Officers of the Society:
+        &&&& The President shall serve as the Chair of the Executive Committee
+        &&&& The President shall strike the Executive Committee no later than at the May Board of Directors Meeting
+    &&& The Finance Committee shall consist of the Vice-President Finance, President, the Vice-President Student Life, other members as the Board may appoint, and any other members as specified in Bylaw 4.   
+        &&&& The Vice-President Finance shall serve as the Chair of the Finance Committee; and
+        &&&& The Vice-President Finance shall strike the Finance Committee and related subcommittees no later than at the May Board of Directors Meeting.
+    &&& The Policy and Rules Committee shall consist of the President, the Vice President Communications, the CRO (as defined in Bylaw 4), the Speaker of the Board, members of the Board as elected, and any other members as specified in Bylaw 4.
+        &&&& The President shall fulfill the role of the Chair until such time as the Committee elects its own Chair.
+        &&&& The President shall strike the Policy and Rules Committee and related subcommittees no later than at the May Board of Directors Meeting.
+        &&&& The Policy and Rules Committee will review Bylaw 5 at their August and November meetings
+    &&& The Academic Committee shall consist of the Vice-President Academic, Discipline Representatives, First-Year Representatives, other members of the Board that may be appointed, and any other members as specified in Bylaw 4.
+        &&&& The Vice-President Academic shall serve as the Chair of the Academic Advocacy Committee; and
+        &&&& The Vice-President Academic shall strike the Academic Committee and related subcommittees no later than at the May Board of Directors Meeting.
+    &&& The Student Life Committee shall consist of the Vice-President Student Life, Vice-President Finance, at most two (2) Members of the Board that may be appointed, and any other members as specified in Bylaw 4.
+        &&&& The Vice-President Student Life shall serve as the Chair of the Student Life Committee; and
+        &&&& The Vice-President Student Life shall strike the Student Life Committee and related subcommittees no later than at the May Board of Directors Meeting.
+    &&& The External Relations Committee shall consist of the Vice-President External, two (2) members of the Board may be appointed, and any other members as specified in Bylaw 4.
+        &&&& The Vice-President External shall serve as the Chair of the External Relations Committee
+        &&&& The Vice-President External shall strike the External Relations Committee and related subcommittees no later than the May Board of Directors Meeting
+    &&& The Public Relations Committee shall consist of the Vice-President Communications, other members of the Board that may be appointed, and any other members as specified in Bylaw 4.
+        &&&& The Vice-President Communications shall serve as the Chair of the External Relations Committee
+        &&&& The Vice-President Communications shall strike the External Relations Committee and related subcommittees no later than the May Board of Directors Meeting
+    &&& No resolution of a Standing Committee shall take force until it is ratified by the Board, unless otherwise specified in these Bylaws.
+    &&& Notice of meetings of the Standing Committee of the Board shall be given electronically or in writing to every member who has expressed interest in meetings of that committee at least three (3) days before the time chosen for such a meeting.
+    &&& Further regulation of the Standing Committees of the Board can be found in Bylaw 4
+    
+\end{easylist}
+
+\section{Employees}
+\begin{easylist}
+\ListProperties(Start7=0)
+
+&& General
+    &&& The Society shall employ a Bookkeeper, Auditor, and such other persons as the Board of Directors may approve.
+
+\end{easylist}
+
+\section{Accessibility and Complaints}
+\begin{easylist}
+\ListProperties(Start9=0)
+
+&& General
+    &&& The Society is responsible for providing a clear process to accommodate accessibility needs to the best of its ability and to outline a process to report necessary accessibility improvements to its members and the Faculty.
+    &&& The Society is responsible for maintaining a formal procedure intended to ensure that internal and external complaints are handled fairly and consistently.
+    &&& The Society is responsible for ensuring that all LES events and services are accessible with considerations made for financial, religious, and physical needs as well as all other bases of discrimination as outlined by the Canadian Human Rights Act.
+&& Accessibility
+    &&& The Society shall maintain a policy on accessibility.
+    &&& The policy shall be administered by the specified Director(s), as defined in Bylaw 3.
+    &&& The policy shall be reviewed once per term by the Policy and Rules Committee.
+&& Complaints
+    &&& The Society shall maintain a policy on complaints
+    &&& The policy shall be overseen by the specified Director(s), as defined in Bylaw 3.
+    &&& The policy shall be reviewed once per term by the Policy and Rules committee.
+    
+\end{easylist}
+
+\section{Amendments, Bylaws, and Policies}
+\begin{easylist}
+\ListProperties(Start10=0)
+
+&& General
+    &&& There shall be three levels of documents specifying the organization of the Society, in order of precedence;
+        &&&& Bylaw 1 (The Constitution);
+        &&&& Bylaws 2-6;
+        &&&& Policies
+    &&& All the documents contained under each of the levels of documents listed in 8.1.1 must be written using gender neutral pronouns.
+&& Bylaw 1 (The Constitution of the Lassonde Engineering Society)
+    &&& Bylaw 1 shall specify the fundamental organization of the Society
+    &&& Bylaw 1 may only be amended by:
+        &&&& At least a two-thirds (2/3) majority vote at a General Meeting; or
+        &&&& A unanimous vote at a Board of Directors Meeting
+    &&& In the case of 11.2.2.b, such amendment is effective only until the next Semi-Annual General Meeting unless confirmed thereat and, in default of confirmation thereat, ceases to have effect at and from that time, and in that case no new by-law of the same or like substance has any effect until confirmed at a General Meeting. If such approval has not occurred by the next Semi Annual General Meeting the amendment is struck down and neither it nor any substantially similar amendment may be proposed at a meeting of the Board for one year following the date of the Semi Annual General Meeting.
+&& Other Bylaws
+    &&& Other Bylaws shall:
+        &&&& Provide additional order to the organization specified in Bylaw 1; and/or
+        &&&& Specify the organization of other areas of the Society.
+    &&& Other Bylaws may only be amended by:
+        &&&& At least a two-thirds (2/3) majority vote at a General Meeting; or
+        &&&& At least a three-quarters (3/4) vote at a Board of Directors Meeting
+&& Policies
+    &&& Policies shall:
+        &&&& Describe details of the functioning of the Society; and
+        &&&& Provide continuity in the Society.
+        &&&& Shall compliment the Bylaws
+    &&& Policies may only be passed, repealed, or amended by a majority vote of:
+        &&&& A General Meeting; or
+        &&&& A meeting of the Board of Directors; or
+        &&&& A meeting of the Executive Committee
+    &&& When a policy is passed, repealed, or amended, it shall be noted which governing body of the Society did so (i.e., a General Meeting, Board of Directors, or the Officers).
+    &&& A notice shall be given to the Board of Directors when a policy is repealed, reinstated, or amended at a Meeting of the Officers
+    &&& Policies passed, repealed, or amended at a General Meeting may only be repealed, reinstated, or amended at another General Meeting for a period of one (1) year.
+    &&& Policies passed, repealed, or amended at a meeting of the Board of Directors may only be repealed, reinstated, or amended at another meeting of the Board, or a General Meeting for a period of one (1) year.
+    &&& Policies passed, repealed, or amended at a meeting of the Officers may be repealed, amended, or re-instated at another meeting of the Officers, a Board of Directors meeting, or a General Meeting for a period of one (1) year.
+    &&& One (1) year after a policy has been passed, repealed, or amended; it may again be amended or repealed by anybody outlined in Section 8.4.2.
+    
+\end{easylist}
+
+\section{Dissolution}
+\begin{easylist}
+\ListProperties(Start11=0)
+
+&& General
+    &&& The Society will be dissolved upon resolution of a meeting of the General Assembly where no less than two thirds (2/3) of all members must agree. All liabilities will be honored, and the remaining assets will be distributed to one or more organizations with goals aligned with dispositions outlined in Article 2.
+
+\end{easylist}
+\clearpage
+
+\section{Annulment}
+\begin{easylist}
+\ListProperties(Start12=0)
+
+&& General
+    &&& The present constitution repeals and annuls all previous constitutions to date.
+
+\end{easylist}
+
+\end{document}

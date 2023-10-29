@@ -1,0 +1,312 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Bylaw 2}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Chapter\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Bylaw 4} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Bylaw 4
+ 
+	The Standing Committees of the Board Bylaw
+ 
+	Lassonde Engineering Society
+	}
+
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: November 29th, 2021
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding Bylaw 1, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header height consistency.
+\begin{easylist}
+&& Interpretations and Definitions
+    &&& In any situations where this Bylaw contradicts Bylaw 1, Bylaw 1 shall have precedence.
+&& General
+    &&& The Board of Directors shall strike the following seven (7) Standing Committees of the Board of Directors no later than at the May Board of Directors meeting.
+    &&& The Board of Directors may nominate members to the committees
+    &&& Standing Committees shall be formed of a caucus of members that are responsible for informing and updating the Board on the business of the Society
+    &&& Standing Committees shall be given the authority to recall Level II Directors within their membership as well as any other member appointed by the committee.
+    &&& Quorum for all committee meetings shall be a majority of committee members.
+    &&& Standing Committees shall also provide support to the following Society functions:
+        &&&& Day to day operations;
+        &&&& Long Term planning; and
+        &&&& Any other responsibilities that the Board may assign.
+        
+\end{easylist}
+\clearpage
+
+\section{Executive Committee}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& Mission
+    &&& The Executive Committee shall be responsible for overseeing all day to day operations of the Society.
+&& Composition
+    &&& The Executive Committee shall be comprised of:
+        &&&& Officers of the Society
+    &&& The President shall serve as Chair of the committee.
+    &&& The committee may nominate a committee member as Deputy Chair of the committee, responsible for conducting meetings in the absence of the Chair.
+&& Rules and Regulations
+    &&& A meeting of the Executive Committee shall be called upon:
+        &&&& President
+        &&&& A written request by a majority of the committee members
+\end{easylist}
+\clearpage
+
+\section{Finance Committee}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start3=0)
+\begin{easylist}
+&& Mission
+    &&& The Finance Committee shall be responsible for overseeing the Society’s finances.
+    &&& The Finance Committee shall be responsible for enforcing all the Society’s financial policies and best practices.
+&& Composition
+    &&& The Finance Committee shall be comprised of:
+        &&&& Vice-President Finance;
+        &&&& Vice President Student Life;
+        &&&& Finance Secretary;
+        &&&& Two (2) representatives from the Board; and
+        &&&& Four (4) At-Large Members appointed by the Board.
+    &&& The Vice-President Finance shall serve as the Chair of the committee.
+    &&& The Finance Secretary shall serve as Deputy Chair of the committee, responsible for conducting meetings in the absence of the Chair.
+&& Rules and Regulations
+    &&& A meeting of the Finance Committee shall be called upon:
+        &&&& Vice-President Finance
+        &&&& A written request by a majority of the committee members
+    &&& The Finance Committee shall convene monthly.
+&& Mandate
+    &&& The Finance Committee must review the Finance Policy once before the Fall General Meeting and once before Winter General Meeting, providing a report to the Board of Directors after each review.
+    &&& The Finance Committee shall be responsible for administering, planning and budgeting for all funds outlined in the Finance Policy or approved by the Board of Directors.
+\end{easylist}
+\clearpage
+
+\section{Policy and Rules Committee}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& Mission
+    &&& The Policy and Rules Committee shall serve as the check on all Society operations and policy.
+&& Composition
+    &&& The Policy and Rules Committee shall be comprised of:
+        &&&& President;
+        &&&& Vice-President Communications;
+        &&&& Speaker;
+        &&&& Chief Returning Officer;
+        &&&& Two (2) representatives from the Board; and 
+        &&&& At-Large Member(s) appointed by the Board.
+    &&& The President shall serve as Chair of the committee.
+    &&& The Vice-President Communications shall serve as Deputy Chair of the committee, responsible for conducting meetings in the absence of the Chair
+&& Rules and Regulations
+    &&& A meeting of the Policy and Rules Committee shall be called upon:
+        &&&& President
+        &&&& Vice-President Communications
+        &&&& A written request by a majority of the committee members
+&& Mandate
+    &&& The committee must review Bylaw 5 before the January Board of Directors meeting
+\end{easylist}
+
+\section{Academic Committee}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& Mission
+    &&& The Academic Committee shall serve as a platform for academic advocacy and student support at the Lassonde School of Engineering.
+&& Composition
+    &&& The Academic Committee shall be comprised of:
+        &&&& Vice-President Academic;
+        &&&& First Year Chair;
+        &&&& One (1) Discipline Representative for each of the following programs:
+            &&&&& Civil Engineering
+            &&&&& Computer Engineering
+            &&&&& Electrical Engineering
+            &&&&& Geomatics Engineering
+            &&&&& Software Engineering
+            &&&&& Mechanical Engineering
+            &&&&& Software Engineering
+            &&&&& Space Engineering
+        &&&& Four (4) representatives from First Year; and
+        &&&& Program Outreach Directors
+        &&&& At-Large Member(s) appointed by the committee.
+    &&& The Vice-President Academic shall serve as Chair of the committee.
+    &&& First Year Chair shall serve as the Deputy Chair of the committee, responsible for conducting meetings in the absence of the Chair.
+    &&& The First Year Chair shall serve as Chair of the First Year Sub-committee, that runs autonomous of the Academic Committee under the purview of the First Year Chair, working closely with First Year engineering faculty.
+    &&& There shall be (2) International Representative(s) and shall be a non-voting directorship with speaking rights.
+&& Rules and Regulations
+    &&& A meeting of the Academic Committee shall be called upon:
+        &&&& Vice-President Academic
+        &&&& First Year Chair
+        &&&& A written request by a majority of the committee members
+    &&& The Academic Committee shall convene monthly
+&& Mandate
+    &&& The Academic Committee shall be responsible for the following Society initiatives:
+        &&&& Academic Concerns Reporting
+        &&&& Professional Development Events
+        &&&& Declaration Day
+        &&&& Mentorship Programs and Initiatives
+        &&&& Review and approve LES academic stances   and case studies
+    &&& The Academic Committee shall be responsible for appointing representatives to relevant faculty councils should an elected program representative member not be found.
+\end{easylist}
+\clearpage
+
+\section{Student Life Committee}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& Mission
+    &&& The Student Life Committee aims to serve Lassonde students by creating a welcoming environment. The committee will bring together members that will collaborate with other clubs, organizations, and universities to gather resources and share event ideas in one collective planning group.
+&& Composition
+    &&& The Student Life Committee shall be comprised of:
+        &&&& Vice-President Student Life;
+        &&&& Events Chair;
+        &&&& Services Chair;
+        &&&& Club Relations Chair;
+        &&&& YEC Chair;
+        &&&& Two (2) representatives from the Board;
+        &&&& The following Level II Directors;
+            &&&&& Design Team Association Director
+            &&&&& Pub Night Director(s)
+            &&&&& Merchandising Design Director(s)
+            &&&&& Wellness Director
+            &&&&& Culture Director
+            &&&&& Outreach Director
+            &&&&& FUF Director
+            &&&&& Events Graphics Director(s)
+            &&&&& Events Logistics Director(s)
+    &&& The Vice-President Student Life shall serve as Chair of the committee.
+    &&& The committee may nominate a Deputy Chair of the committee, responsible for conducting meetings in the absence of the Chair.
+    &&& The Events Chair shall serve as Chair of the Events Sub-committee.
+    &&& The Services Chair shall serve as Chair of the Services Sub-committee.
+&& Rules and Regulations
+    &&& A meeting of the Student Life Committee shall be called upon:
+        &&&& Vice-President Academic
+        &&&& A written request by a majority of the committee members
+    &&& The Academic Committee shall convene monthly
+&& Mandate
+    &&& The Student Life Committee...
+\end{easylist}
+\clearpage
+
+\section{External Relations Committee}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& Mission
+    &&& The External Relations Committee shall serve as the selection body for all external events.
+&& Composition
+    &&& The External Relations Committee shall be comprised of:
+        &&&& Vice-President External;
+        &&&& External Secretary;
+        &&&& Two (2) Board Representatives; and
+        &&&& At-Large Member(s) appointed by the committee.
+    &&& The Vice President External shall serve as Chair of the committee.
+    &&& The committee may nominate a Deputy Chair of the committee, responsible for conducting meetings in the absence of the Chair
+&& Rules and Regulations
+    &&& A meeting of the External Relations Committee shall be called upon:
+        &&&& Vice-President External
+        &&&& A written request by a majority of the committee members
+&& Mandate
+    &&& The External Committee shall be responsible for:
+        &&&& Selecting delegates to represent Lassonde Engineering at external events and conferences
+        &&&& Appointing a lead conference delegate in the event the Vice President External is unable to attend a conference. 
+        &&&& Documenting External activities for internal record keeping.
+        &&&& Providing oversight on conference logistics, 
+        &&&& Providing oversight on the promotion of External activities.
+\end{easylist}
+\clearpage
+
+\section{Public Relations Committee}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& Mission
+    &&& The Public Relations Committee shall be responsible for all the Society’s publications and digital platforms.
+&& Composition
+    &&& The Public Relations Committee shall be comprised of:
+        &&&& Vice-President Communications; and
+        &&&& The following Level II Directors:
+            &&&&& Social Media Coordinator
+            &&&&& IT Director
+            &&&&& Flux Newsletter Editor
+            &&&&& WeekZer0 Handbook Editor
+            &&&&& Flux Podcast Producer(s)
+            &&&&& Flux Podcast Editor(s)
+            &&&&& Art Director(s)
+            &&&&& Photographer/Videographer(s)
+            &&&&& Video Editor(s)
+    &&& The Vice-President Communications shall serve as Chair of the committee.
+    &&& The committee may nominate a Deputy Chair of the committee, responsible for conducting meetings in the absence of the Chair
+&& Rules and Regulations
+    &&& A meeting of the Public Relations Committee shall be called upon:
+        &&&& Vice-President Communications
+        &&&& A written request by a majority of the committee members
+&& Mandate
+    &&& The Public Relations Committee shall be responsible for the following Society initiatives:
+        &&&& Communicate with the student body using social media platforms.
+        &&&& Podcast that will be posted on the SoundCloud, Youtube and Anchor.FM LES Accounts.
+        &&&& Maintain a website that displays events, meeting minutes, resources and has links to different opportunities available within the Society.
+        &&&& A Frosh Handbook that includes ad space and helps maintain the contract with CU Advertising.
+        &&&& A newsletter that can be shared with the members and shows what LES and our partners are working on.
+\end{easylist}
+\clearpage
+
+\end{document}

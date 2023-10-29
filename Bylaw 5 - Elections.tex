@@ -1,0 +1,532 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Bylaw 5}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Chapter\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Bylaw 5} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Bylaw 5
+ 
+	The Elections Bylaw
+ 
+	Lassonde Engineering Society
+	}
+ 
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: November 29th, 2021
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding Bylaw 1, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header height consistency.
+\begin{easylist}
+&& Interpretations and Definitions
+    &&& In any situations where this Bylaw contradicts Bylaw 1, Bylaw 1 shall have precedence.
+    &&& In this document:
+        &&&& Chief Returning Officer shall be referred to as "CRO";
+        &&&& Deputy Returning Officer shall be referred to as “DRO”;
+        &&&& The Office n of Returning Officers, a caucus comprising of the CRO’s and DRO’s shall be referred to as “ORO”;
+        &&&& The collective periods of the Nomination Period, the Campaign Period, and the Voting Period shall be referred to as “Election Period”;
+        &&&& The period when Nomination Packages are made available and accepted shall be referred to as “Nomination Period”;
+        &&&& The period when campaigning is permitted shall be referred to as “Campaign Period”;
+        &&&& The period when voting is made available shall be referred to as “Voting Period”;
+        &&&& One or more candidates endorsing another either verbally or through shared campaign resources shall be referred to as “slate”;
+        &&&& A member who is registered with either the “yes” or “no” campaign for referenda shall be referred to as “Designate”.
+&& General
+    &&& The CRO shall give notice of the opening of a Nomination Period of any referendum or election and the positions to be elected.
+        &&&& Notice shall be given at least seven (7) days in advance via an email or social media to all Members.
+        &&&& Notice shall include all information, or a reference to such, necessary to form a complete nomination.
+    &&& The CRO shall notify all Members by email or social media at the opening of an Election period, and at 12pm on the day an Election Period closes.
+    &&& Electronic voting shall be made available over the entirety of a given Voting Period for an election cycle, where applicable, through yuvote.yorku.ca.
+    &&& For a given election cycle, counting shall commence immediately once the voting period ends, and a declaration of election shall be given by the CRO upon their completion of the Statement of Results.
+    &&& Candidates may nominate a scrutineer to observe the compilation of online ballots before the completion of the Statement of Results.
+        &&&& A scrutineer may not be a candidate in the election; and
+        &&&& The candidate must send a notification twenty-four (24) hours before the end of the Voting Period notifying the CRO that they are nominating a scrutineer.
+        &&&& The scrutineer must also give consent for this nomination to the CRO and candidate twenty-four (24) hours before the end of the voting period.
+        &&&& d. A scrutineer cannot represent more than one candidate.
+        &&&& A scrutineer will only be showed the breakdown of votes for the candidate they represent to verify the validity of the votes.
+    &&& No one shall be allowed inside the room where the online votes are being compiled except the CRO, any DROs and any scrutineers
+&& Principles
+    &&& In general, the goal of any election is to:
+        &&&& Objectively inform all voters;
+        &&&& Elect an appropriate candidate; and
+        &&&& Offer a fair chance to all legitimate candidates.
+    &&& The following actions are strictly forbidden:
+        &&&& Spamming, consisting of sending unsolicited bulk email;
+        &&&& Solicitation, consisting of forceful, urgent, or repeated requests; and
+        &&&& Deception, consisting of lies, coercion or slander.
+    &&& Any election activity that breaches York University policies or regional or national laws will be grounds for disqualification
+&& Communication
+    &&& Notifications shall be distributed via the email address provided by the candidate to the CRO.
+    &&& Candidates are responsible for ensuring any information provided to the CRO is legible and accurate, including, but not limited to, their email address.
+    &&& The following are examples of invalid excuses for not receiving notifications:
+        &&&& Candidate’s email inbox was full; and/or
+        &&&& Emails were redirected to junk box.
+    &&& Any questions or concerns may be addressed to the CRO at any time by email at 
+    speaker@lasengsoc.com
+    &&& All questions asked to the CRO and all answers and decisions given by the CRO pertaining to the election process shall be emailed out to the appropriate candidates and the DROs in a timely manner.
+    
+\end{easylist}
+\clearpage
+
+\section{Chief Returning Officer}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& Roles and Responsibilities
+    &&& Unless otherwise stated, conducting elections shall be the sole responsibility of the CRO.
+    &&& The CRO shall regularly update online content for elections with relevant information, including, but not limited to, election notices, election results, and position requirements.
+    &&& The CRO shall adjudicate any violation of this Bylaw
+    &&& The CRO shall not hold any, nor be a candidate in any, other official elected position of the Engineering Society during their term of office.
+    &&& The CRO may appoint, at any point in time, DROs to assist in the effective and faithful discharge of the duties of their office.
+    &&& The ORO and all officials of the elections process, including polling clerks and other designates of the CRO, must remain neutral during both the campaign and voting periods.
+    &&& The CRO shall inform all candidates of the appeal process at the end of an election and following any rulings.
+    &&& The CRO shall be overseen by the Speaker.
+    &&& The CRO shall not resign during an Election Period.
+    &&& The CRO shall only be recalled by a majority vote at a meeting of the Board of Directors.
+    &&& In cases of infirmity, death, resignation, vacancy, or other form of ineligibility of the CRO, the Speaker shall act as the interim CRO until a new CRO is elected at a meeting of the Board.
+    &&& If the Speaker declares they is unable or unwilling to execute the role of interim CRO faithfully, the role of interim CRO shall be passed to a Director of the Board elected in a special election, which is to be held immediately after the Speaker is declared unable or unwilling.
+&& Election Period of the CRO
+    &&& There shall be a CRO, who shall be elected at the conclusion of the May Board of Directors meeting.
+    &&& The CRO shall be elected through the same election procedure as Level I Directors, as outlined in Chapter 8.
+    &&& The term of office of the CRO shall commence when they take the Officer’s Agreement and shall end upon election of the new CRO.
+    
+\end{easylist}
+\clearpage
+
+\section{Officer Elections}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start3=0)
+\begin{easylist}
+&& Election Period
+    &&& The Nomination Period for the election of Officers shall commence at 9:00 am on the Monday before Reading Week of the Winter semester and shall close at 11:59 pm on the Friday of Reading Week.
+    &&& TA Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office or emailed to speaker@lasengsoc.com, no later than the close of the Nomination Period, which shall include:
+        &&&& The Member’s name, student number, contact information, and signature; and
+        &&&& The names, student numbers, and signatures of twenty-five (25) Nominators, all of whom shall be Members.
+    &&& Potential candidates may submit a voter’s statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period.
+        &&&& The voter’s statements are limited to two-hundred and fifty (250) words in length.
+    &&& The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
+    &&& No Member may be nominated for more than one Officer position.
+    &&& The Campaign Period shall:
+        &&&& Commence between twenty-four (24) and seventy-two (72) hours after The All Candidates Meeting; and
+        &&&& Be between three (3) and five (5) business days (inclusive) in length.
+    &&& The Voting Period shall:
+        &&&& Commence between twelve (12) and seventy-two (72) hours after the end of the Campaign Period; and
+        &&&& Be between two (2) and three (3) business days (inclusive) in length.
+&& Reopening Nominations
+    &&& If no nominations have been received for an Officer position by the deadline the CRO shall reopen nominations for that position, by sending an email or social medial post to all Members. This email or post shall explain why the nominations are being re-opened and reiterate the nomination process.
+    &&& The reopened nomination period shall last at least five (5) days.
+&& All Candidates Meeting (ACM)
+    &&& An All Candidates Meeting (ACM) will be held within four days after the conclusion of the Nomination Period. The details of the ACM (time and location), if available, will be outlined in the Nomination Package and must be chosen in consideration of those who cannot attend during normal business hours (i.e. 9:00am - 5:00pm).
+    &&& In the case of reopened nominations, the candidates shall be informed of the date, time, and location of this meeting when they hand in their completed Nomination Package.
+    &&& Attendance of the ACM is mandatory. Nominees who are unable to attend may have a designate (proxy) attend the meeting in their place.
+    &&& Nominees who submit a complete Nomination Package and attend the ACM, or have a proxy attend in their place, will be considered candidates.
+&& Vice-President Student Life
+    &&&  The Vice-President Student Life shall be responsible for recognizing Affiliated Clubs and dealing with student issues pertaining to the membership of those clubs.
+    &&& The Vice-President Student Life shall be responsible for keeping the membership informed about club opportunities and ensuring that the Society is providing support to Affiliated Clubs.
+    &&& The Vice-President Student Life is responsible for organizing, coordinating, and managing all Society events.
+    &&& The Vice-President Student Life is responsible for organizing LES representation at Lassonde’s Orientation Week.
+    &&& The Vice-President Student Life is responsible for all spirit related initiatives in the Society.
+    &&& The Vice-President Student Life shall lead the Society’s mentorship program.
+&& All Candidates Forum
+    &&& An All Candidates Forum shall be held during the Campaign Period of the Officer Elections at a time and location to be announced on the Nomination Package.
+    &&& The purpose of the forum is to provide Officer candidates an opportunity to publicly address the Members of the Society as well as for Members to ask questions.
+    &&& The CRO, or their designate, shall moderate forum activities.
+    &&& Presidential candidates will be given five (5) minutes to make a speech, a set amount of time to ask questions of other candidates at the discretion of the CRO, and ten (10) minutes to field questions from Members.
+    &&& All Vice-Presidential candidates will be given three (3) minutes to make a speech, a set amount of time to ask questions of other candidates at the discretion of the CRO, and ten (10) minutes to field questions from Members.
+    &&& In the case where there is only a single candidate for a position, the candidate will be given two (2) minutes to make a speech, with the appropriate time to field questions from Members, as stated above.
+&& By-Elections
+    &&& Should an Officer position become vacant between the April Board of Directors meeting and at least four (4) months following April Board of Directors meeting, the CRO shall immediately call a by-election.
+    &&& Notification of the By-Election shall be sent by email to all Members.
+    &&& The Nomination Period shall be five (5) business days.
+        &&&& If no nominations have been received by the deadline, the CRO shall re-open nominations for at least three (3) business days
+    &&& Election rules for an Officer election shall be followed except as specified below
+        &&&& Campaigning shall begin on the next business day following the close of the Nomination Period.
+        &&&& The period for submitting appeals and/or complaints to the Election Appeals Committee (as defined in Chapter 10) shall be between twenty-four (24) hours prior to the beginning of the Voting Period and three (3) days after the announcement of election results, to the minute.
+    
+\end{easylist}
+\clearpage
+
+\section{Winter Elections}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& General
+    &&& The following apply to all elections outlined in this Chapter, except for Speaker of the Board of Directors:
+        &&&& An All Candidates Meeting (ACM) will be held pursuant to the description in 3.3.1;
+        &&&& Potential candidates may submit a voter’s statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
+            &&&&& The voter’s statement is limited to one hundred (100) words in length
+        &&&& The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
+&& Board of Directors Election Period
+    &&& The Nomination Period for Board of Directors shall commence no later than 9:00 am on the Monday of the fourth week after Reading Week in the Winter Term and shall close at 11:59 pm on the Friday of the same week.
+    &&& A Member may only be nominated for a position on the Board of Directors for the constituency to which they belong or have declared intent to transfer into.
+    &&& A Member who currently holds a seat on the Board of Directors may not seek another seat with the same term without first resigning their current seat.
+    &&& Members shall not be nominated for more than one (1) Board of Directors position.
+    &&& Package to the Engineering Society Office or emailed to speaker@lasengsoc.com, no later than the close of the Nomination Period, which shall include:
+        &&&& TThe Member’s name, student number, contact information, and signature; and
+        &&&& TThe names, student numbers, and signatures of twenty (20) Nominators, all of whom shall be Member
+    &&& The Campaign Period shall:
+        &&&& Commence between twenty four (24) and seventy-two (72) hours after the ACM; and
+        &&&& Be between three (3) and five (5) business days (inclusive) in length.
+    &&& The Voting Period shall:
+        &&&& Commence between twelve (12) and seventy-two (72) hours after the end of the Campaign Period; and
+        &&&& Be between two (2) and three (3) business days (inclusive) in length
+    
+\end{easylist}
+\clearpage
+
+\section{Fall Elections}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+
+&& General
+    &&& The following apply to all elections outlined in this Chapter, except for Speaker of the Board of Directors:
+        &&&& An All Candidates Meeting (ACM) will be held pursuant to the description in 3.3.1;
+        &&&& Potential candidates may submit a voter’s statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
+            &&&&& The voter’s statement is limited to one hundred (100) words in length.
+        &&&& The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
+&& First Year Representative Board of Directors Election Period
+    &&& The Nomination Period for Board of Directors shall commence no later than 9:00 am on the Monday of the third week of September and shall close at 11:59pm on the Friday of the next week.
+    &&& Member may only be nominated for a position on the Board of Directors for the constituency to which they belong or have declared intent to transfer into.
+    &&& Members shall not be nominated for more than one (1) Board of Directors position.
+    &&& A Member shall be considered nominated upon submitting a completed Nomination
+    &&& Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+        &&&& The Member’s name, student number, contact information, and signature; and
+        &&&& The names, student numbers, and signatures of twenty-five (25) Nominators, all of whom shall be Members.
+    &&& The Campaign Period shall:
+        &&&& Commence between twenty-four (24) and seventy-two (72) hours after the ACM; and
+        &&&& Be between three (3) and five (5) business days (inclusive) in length.
+    &&& The Voting Period shall:
+        &&&& Commence between twelve (12) and seventy-two (72) hours after the end of the Campaign Period; and
+        &&&& Be between two (2) and three (3) business days (inclusive) in length.
+\end{easylist}
+\clearpage
+
+\section{Other Elections}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+
+&& General
+    &&& Use of the phrase ”Appointed by” in this chapter shall mean that the organization in question may appoint any Member to fulfill the position.
+&& Speaker of the Board of Directors Election Period
+    &&& The Nomination Period for the Speaker of the Board of Directors shall commence at 9:00am on the nearest Monday after April 30th and shall close on the Friday of the same week
+    &&& A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+        &&&& The Member’s name, student number, contact information, and signature; and
+        &&&& The names, student numbers, and signatures of ten (10) Nominators, all of whom shall be Members.
+    &&& There shall be no campaigning for this position
+    &&& At the May meeting of the Board of Directors, each candidate shall be given the opportunity to speak for three (3) minutes before the election for this position.
+    &&& Each member of the Board shall have one (1) vote to elect the Speaker of the Board at the aforementioned meeting 
+    &&& Other details of the elections shall be at the discretion of the CRO.
+
+\end{easylist}
+\clearpage
+
+\section{Referenda}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+
+&& General
+    &&& A referendum shall be called by either:
+        &&&& A motion of the Board of Directors; or
+        &&&& A Referendum Form submitted to the Engineering Society Office consisting of a list of signatures of Full Time Members and Part Time Members, which contains:
+            &&&& Each signer’s name, year of study, student number, and discipline; and
+            &&&& A number of signatures of students from each discipline equal to or greater than 10 \% of the number of students reported to be enrolled in the discipline in the most recent Faculty Annual Report. 
+    &&& Any referendum concerning student fees shall require a Special Resolution of the Board.
+    &&& The CRO shall hold an All Candidates Meeting (ACM) at least seventy-two (72) hours before the Campaign Period opens.
+        &&&& All campaigns must send an official representative to attend the ACM .
+    &&& The CRO shall adjudicate any violations of these rules. Consequences of non-compliance may include, but are not limited to:
+        &&&& Removal of the campaign’s posters.
+    &&& A referendum must be positively phrased, so that a vote of ”yes” signifies agreement with the initiative proposed, and a vote of ”no” signifies disagreement with it
+    &&& Quorum required for a referendum shall be no less than five percent (5\%) of Members.
+    &&& A referendum result shall be considered a recommendation and not legally binding
+    &&& A referendum shall not interfere with the Constitution of the Society, University Policy or any Municipal, Provincial or Federal Legislation.
+
+\end{easylist}
+\clearpage
+
+\section{Level I Directors}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+
+&& General
+    &&& Unless otherwise stated in the Bylaws, all Level I Directors shall be elected at the March Board of Directors meeting, then confirmed at the Winter General Meeting by the process outlined in this Chapter.
+&& Nominations
+    &&& The Nomination Period for Level I Directors shall commence no later than 9:00 am on the Monday of the fourth week after Reading Week in the Winter Term and shall close at 11:59 pm on the Friday of the same week.
+    &&& A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
+        &&&& The Member’s name, student number, contact information, and signature; and
+        &&&& The names, student numbers, and signatures of ten (10) Nominators, all of whom shall be Members.
+    &&& If a Level I Director position is vacant, the Nomination Period shall be five (5) business days and the election shall occur at the first Board meeting thereafter.
+        &&&& Nominations for a Level I Director position shall be re-opened to a maximum of two (2) times in cases of successive vacancies; and
+        &&&& If the position is still vacant after the second re-opening, nominations may be re-opened at the discretion of the overseeing Officer, in coordination with the CRO.
+&& Hiring Committees
+    &&& Once the Nomination Period is closed, all nominees for each Level I Directorship shall be interviewed by a hiring committee consisting of the following members:
+        &&&& The outgoing Director(s);
+        &&&& The outgoing overseeing Officer;
+        &&&& One (1) Member of the Board of Directors; and
+        &&&& One (1) Level I Director, Level II Director, or At-Large member, who is not on the Board of Directors
+    &&& If no Director, or At-Large member is interested in sitting on the hiring committee, a Member of the Board of Directors shall take their place.
+    &&& If no Member of the Board of the Directors is interested in taking the place of a Level I Directors on the hiring committee, an Engineering Society Officer shall take their place.
+    &&& The hiring committee shall interview all nominees and minute each interview’s questions and answers.
+    &&& The recommendation report shall completely provide all reasoning for the recommendation provided, including discussion and concerns raised among the members of the hiring committee.
+    &&& From the nominated candidates, the hiring committee shall recommend one (1) candidate, multiple candidates or to re-open nominations.
+    &&& Candidates may opt to have their interview recorded in the event that they wish to provide evidence to the Board for incorrect information portrayed in the recommendation report.
+&& Board Meeting
+    &&& The recommendation report shall be circulated to candidates and Members of the Board of Directors no later than one (1) week prior to the March Board of Directors meeting.
+    &&& The Board of Directors shall be responsible for electing each Level I Director in accordance with the recommendation (or recommendations) provided by the hiring committee.
+    &&& Any Member of the Board of Directors may move to amend the recommendation for any particular Level I Director in accordance with Bylaws and Rules of Procedure governing the consideration of motions at a Board of Directors meeting.
+    &&& If a recommendation report supports multiple candidates, no candidate, or is undecided as to whom should be hired as the Level I Director, then the Board may, on their own judgement after considering the recommendation report, elect a candidate or re-open nominations, as per the process outlined in Section 8.4
+    &&& If a Member receives a position, they shall be removed from consideration for any others. If a candidate that received the recommendation withdraws, then they shall provide notice to the Speaker as soon as possible and that position shall be elected, or nominations re-opened, at the discretion of the Board of Directors after considering the recommendation report.
+    &&& The CRO shall determine the order in which positions are considered;
+        &&&& Nominees nominated for two (2) or more positions may request the CRO to elect their preferred position first, which must be done at least three (3) days before the March Board of Directors Meeting
+&& Elections
+    &&& If a condition outlined in Section 8.4.4 is met, then candidates shall be sent out of the room and the Level I Directorships shall be elected by a show of hands from Board Members using the following method:
+        &&&& Votes for each candidate, and to re-open nominations, shall be counted;
+        &&&& If a candidate receives a majority of votes, they win the election;
+        &&&& If no candidate receives a majority of votes, then the candidate with the fewest votes shall be removed from consideration and another vote shall be held;
+        &&&& In all cases of ties, the CRO or the person acting as CRO, if the case may be, shall cast the deciding vote;
+        &&&& In the event that there is more than one (1) director sought for a position, the process shall be repeated with the winner of the previous election removed.
+
+\end{easylist}
+\clearpage
+
+\section{Campaigning}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+
+&& General
+    &&& Campaigning is allowed solely during the Campaign Period and may only be done by a candidate, designate or campaign assistant.
+    &&& All campaign materials must prominently display the following text: “yuvote.yorku.ca”.
+    &&& In this chapter the term “candidate” shall be interpreted to include the term “designate” for referenda questions.
+    &&& Candidates are limited to zero dollars (\$0) in campaign expenses.
+        &&&& Tools and resources used to create the content outlined in sections 9.2, 9.3 and 9.7 are not counted towards a candidate’s campaign spending.
+        &&&& A printing budget may be determined at the discretion of the CRO
+        &&&& Objects used or distributed in relation to a campaign will be judged at reasonable market value, at the discretion of the CRO, and not at the value for which they were obtained. For example, distribution of freely obtained food in a campaign context would result in a breach of this rule.
+    &&& The campaigning rules outlined in this Chapter apply to all positions identified in this Bylaw, with the exception of the following, for which candidates may not campaign:
+        &&&& Level I and II Directors;
+        &&&& Chief Returning Officer; and
+        &&&& The Speaker of the Board of Directors.
+    &&& The CRO shall maintain a document containing voter statements and platforms of all candidates who wish to submit such materials. The permitted lengths of each shall be announced prior to the beginning of the campaigning period and shall be left to the discretion of the CRO.
+            &&&& Notwithstanding sections 9.2.1 and 9.2.3, the link to this document, as well as statements which would be permitted under 9.7, may be posted on any social media platform during the campaigning period.
+&& Materials
+    &&& For Officer candidates or referenda designates, posters are limited to twenty-five (25) letter-size pages or the equivalent area using letter and tabloid-size only.
+    &&& For Board of Director candidates, posters are limited to ten (10) letter-size pages or the equivalent area using letter and tabloid-size only.
+    &&& A candidate’s campaign of any other position is not allowed on any posters.
+    &&& Posters shall be approved by the CRO and stamped by the Society.
+    &&& Posters shall not:
+        &&&& Exceed the size of 2 letter-size pages;
+        &&&& Be placed on other posters;
+        &&&& Obstruct other notices while they are current;
+        &&&& Be clustered in groups of more than 2;
+        &&&& Be posted in restrooms in any building;
+        &&&& Be put up in computer labs, on tables or any glass surfaces;
+        &&&& Be posted outdoors unless on a public message board.
+    &&& Candidates shall not leave posters for longer than one week after the election, or else they will be disqualified.
+    &&& Banners are not permitted.
+&& Social Media
+    &&& Posting messages and sharing campaign events on non-election social groups is not allowed.
+    &&& All social media posts must be vetted by the CRO before post.
+    &&& There will be a website page where the links of all pertinent candidate event pages will be
+posted.
+&& Slates and Endorsements
+    &&& Slate campaigning will result in disqualification.
+    &&& Candidates shall not use any privileged Engineering Society or third-party organization’s
+resources to help with their campaign, including, but not limited to, the following:
+        &&&& Access to mailing lists; and/or
+        &&&& Servers
+    &&& Candidates are not permitted to use any official or visually similar marks of the Society or third-party organizations.
+    &&& Endorsements by organizations or organization executives are not allowed; what constitutes an endorsement is at the discretion of the CRO.
+    &&& Candidates are not permitted to lead voters to believe they are endorsed by any club or organization.
+    &&& The following are examples of permitted endorsement:
+        &&&& Campus news outlets conduct interviews with candidates
+    &&& The following are examples of unauthorized endorsement:
+        &&&& Ask the President of the Society for a mention during a meeting;
+        &&&& Usage of any logo in a candidate’s campaign material; and
+        &&&& A public statement by a club executive or Board Member endorsing a candidate.
+&& In-Class Speeches
+    &&& In-class speeches before a class starts or after it ends are permitted, but permission needs to be granted from the lecturer. In-class speeches are not permitted for all candidates in any courses in which any candidates are lecturers.
+    &&& The lecturer has sole authority to limit in-class speeches.
+    &&& Candidates must give their own in-class speeches unless otherwise approved by the CRO.
+&& Campaign Assistants
+    &&& A campaign assistant is any person asked by a candidate to help, as a volunteer, in their campaign.
+    &&& Candidates must submit the information of their campaign assistant (Name Discipline/Year, and Student Number) to the CRO prior to the assistant performing any duties of the role.
+    &&& Candidates are expected to ensure their assistants are aware of and comply with the rules of the election.
+    &&& Any violation of the rules by the candidate assistant is understood to be a violation on behalf of the candidate.
+&& Communication During Campaign Period
+    &&& No campaigning in quiet spaces, including but not limited to, the following:
+        &&&& Computer labs;
+        &&&& Libraries; and/or
+        &&&& Study rooms.
+    &&& No obnoxious or disruptive campaigning of any sort, including but not limited to, the following:
+        &&&& Using a megaphone or other voice amplification device;
+        &&&& Yelling;
+        &&&& Playing loud music; and/or
+        &&&& Creating a mess for cleaning staff.
+    &&& Candidates are not allowed to create any campaign videos.
+    &&& The official language of campaigning is English. Should a candidate wish to create materials and/or deliver speeches in another language, they must provide an accurate and equivalent English translation that appears in advance of any such content.
+        &&&& Providing a false or misleading translation shall constitute a blatant breach of this rule.
+&& Communication After Campaign Period
+    &&& Once the Campaign Period ends, candidates must cease public communications regarding their campaign.
+    &&& Candidates are allowed to inform students that elections are happening but are not permitted to indicate who they should vote for.
+    &&& Candidates may continue to answer direct questions if asked, but only in a private fashion.
+    &&& The following are examples of permitted communication after Campaign Period:
+        &&&& “Voting is now open, go to yuvote.yorku.ca to cast your ballot.”;
+        &&&& “Voting is open, you should go vote”; and/or
+        &&&& Replying to a question or post from an individual via email, personal message, or in person.
+    &&& The following are examples of unpermitted communication after Campaign Period:
+        &&&& “Voting has started. Remember to vote for me for President.”; and/or
+        &&&& Replying to a question or post via mass email, Facebook wall, Instagram Story, online forum/group chats, or in a group of people.
+    &&& Communication after the Campaign Period must still comply with the regulations contained in Section 9.8 of this Bylaw.
+
+\end{easylist}
+\clearpage
+
+\section{Penalties}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+
+&& Warnings
+    &&& Breach of any of the election rules will result in an official warning, via email, along with instructions to amend the breach within twenty-four (24) hours
+    &&& If a breach is not amended within twenty-four (24) hours, it will be considered the same as committing the same action again.
+    &&& All warnings given to a candidate or designate shall be posted on the Society website
+    &&& If a warning is given to a candidate or designate regarding a certain action and the same action is performed again, they will be disqualified.
+    &&& If a candidate or designate receives warnings for three (3) separate breaches, they will be disqualified.
+&& Disqualifications
+    &&& The CRO has the sole authority to disqualify a candidate or designate in accordance with the presented regulations.
+    &&& The CRO has the authority to disqualify a candidate or designate if it is deemed that an infraction of the rules has caused irreparable harm to the integrity of the election.
+    &&& The CRO has the authority to disqualify a candidate or designate for knowingly, blatantly, or maliciously acting against the principles of the elections or breaching any election rule.
+        &&&& Upon severe violations (at the discretion of the CRO) performed by a designate, the CRO may remove the referendum from the ballot.
+    &&& Once the voting period has started, a candidate or referendum will not be removed from the ballot, but relevant information, such as disqualification, may still be added to their online statement.
+    &&& A disqualified candidate or designate may petition to have their disqualification reviewed. Information regarding this process will be included in the disqualification notice.
+
+\end{easylist}
+\clearpage
+
+\section{Appeals and Complaints}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+
+&& Election Appeals Committee (EAC)
+    &&& Any appeals or complaints related to elections shall be brought in writing to an Election Appeals Committee (EAC) comprising of:
+        &&&& President;
+        &&&& Speaker of the Board; and
+        &&&& Faculty Advisor.
+    &&& In the event that one of the members above is unable to serve on the committee, the remaining members of the Election Appeals Committee will select a reserve member from:
+        &&&& Ombudsperson; or
+        &&&& A Board Member not nominated for a Board position
+    &&& The Election Appeals Committee shall report to the Board of Directors all matters brought to them and any recommended action.
+    &&& The Election Appeals Committee’s jurisdiction on any appeal shall be limited to the election(s) which the appeal concerns.
+    &&& The Election Appeals Committee (EAC) shall consider those arguments submitted to them by the Office of Returning Officers (ORO) and the appellant. Other relevant parties, as determined by the EAC, may be given reasonable opportunity to submit additional arguments and evidence.
+    &&& Any ruling of the Election Appeals Committee that upholds the ruling of the CRO in part or in full, or grants the requests of the appellant in part or in full shall be binding, unless opposed by a unanimously approved motion of the Board, wherein any member of the Election Appeals Committee shall not have a vote.
+    &&& Any other ruling of the Election Appeals Committee shall be binding unless opposed by a regular motion of the Board
+    &&& Any recommendation of the Election Appeals Committee that does not pertain directly to the submitted Appeal, or any ruling beyond its jurisdiction shall not be binding.
+    &&& No ruling shall be binding when any provision of this Chapter, or any principle of fundamental justice was breached during the appeal process, as determined by a majority vote of the Board.
+&& Elections Appeals Process
+    &&& If an appellant intends to submit an appeal more than twenty-four (24) hours prior to the beginning of the voting period, the appellant shall meet with the CRO and at least one (1) of the Ombudsperson or the Speaker in an attempt to resolve the issue. After this meeting, the appellant may submit the appeal to the Election Appeals Committee.
+    &&& If an appeal is submitted between twenty-four (24) hours prior to the beginning of the voting period and seven (7) days after the announcement of election results, to the minute, then the appeal shall be brought directly to the Election Appeals Committee.
+    &&& All Election Appeal Committee rulings shall be released after the announcement and prior to the ratification of election results.
+    
+\end{easylist}
+\clearpage
+
+\section{Voting}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+
+&& General
+    &&& Voters shall rank candidates on their ballot in order of preference. Voters may rank as many candidates as they prefer.
+    &&& There shall be a “Re-Open Nominations” option on each ballot
+    &&& Ballots that contain a mark for only one candidate shall be considered to contain a single first-place vote for that candidate.
+    &&& The following elections shall be held under a Gregory method of Single Transferable Vote system: Officers, Board of Directors, Discipline Representatives, First Year Representatives, and any other electronic elections at the discretion of the CRO, as described in Section 12.2.
+&& Voting Method
+    &&& Each voter’s first preference candidate receives one (1) vote.
+    &&& The quota of votes needed to win is calculated using the Droop quota, (N/(S+1))+1, where N is the number of valid first-preference votes in the first round and S is the total number of seats needed to be filled in the election (i.e., fractional votes are dropped). The quota does not change through subsequent rounds.
+    &&& If, after all the votes have been transferred, a candidate achieves the quota, then:
+        &&&& They are elected to a seat and are ineligible to receive any more votes.
+        &&&& Their votes are transferred to the voter’s next preference at a value of V(C-Q)/C where V is the value of the vote when the candidate was elected, C is the candidate’s vote-total when elected, and Q is quota.
+    &&& If, after all the votes have been transferred, no candidate achieves the quota, then:
+        &&&& Each candidate with the lowest vote-total is eliminated, and they are ineligible to receive any additional votes. If there is a tie in the process of elimination, a backwards tie-breaking procedure will be performed to determine the candidate that is eliminated. A backwards tie-breaking procedure views the previous stages in a sequential order and eliminates candidates based on those vote totals
+        &&&& Each voter’s vote (which was cast for these candidates) remains at its present value.
+    &&& Each vote that belonged to the eliminated or elected candidate(s) is transferred to the voter’s next preference at its present value.
+        &&&& If this candidate is one who was previously eliminated or elected, Section 12.2.5. is repeated.
+        &&&& If the voter has not listed any additional preference or was unable to do so, their ballot is exhausted
+    &&& Section 12.2.3. through 12.2.5. are repeated until:
+        &&&& All the seats are filled by election; or
+        &&&& At the end of Section 11.1.4., if the number of eligible candidates is equal to or less than the number of unfilled seats and there is no candidate who can reach the quota, then the election is stopped and those seats are considered vacant and a by-election is held immediately following with the timeline at the CRO’s discretion.
+    &&& If “Re-Open Nominations” receives equal to or more than Q votes, the election iterations are stopped, and the unfilled seats are reopened in a by-election.
+    &&& In the event a candidate withdraws or is disqualified between the start of the voting period and the ratification of election results:
+        &&&& The candidate will be removed from the ballot if the voting period is still open.
+        &&&& Any votes cast where the candidate was the first preference and there were no further preferences stated will be nullified and will not count towards the quota.
+        &&&& Any votes cast where the candidate was the first preference and there were further preferences stated will be adjusted such that the second preference becomes first preference and so on.
+        &&&& Any votes cast where the candidate was not the first preference will be adjusted such that the candidate is removed from their vote and all preferences stated below them move up the order.
+
+\end{easylist}
+\clearpage
+
+\end{document}
