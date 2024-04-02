@@ -1,0 +1,131 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Bylaw 7}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Chapter\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Bylaw 6} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Bylaw 6
+ 
+	The Discipline Club Bylaw
+ 
+	Lassonde Engineering Society
+	}
+ 
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: TBD
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding Bylaw 6, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header height consistency.
+\begin{easylist}
+&& Interpretations 
+    &&& In any situations where this Bylaw contradicts Bylaw 1, Bylaw 1 shall have precedence.
+    &&& It is imperative that Discipline Clubs be given the autonomy to conduct their business. Although autonomy is important, the Society must have a presence to ensure accountability and financial prudence are maintained. 
+
+&& General
+    &&& All Discipline Clubs shall have the benefits of Associated Entities. 
+    &&& There shall be one (1) Discipline Club per Engineering program as defined by the Lassonde School of Engineering. 
+    &&& Each Discipline Club shall be represented by a Club President or Co-Presidents. 
+    
+\end{easylist}
+\clearpage
+
+\section{Requirements and Eligibility}
+\vspace{5mm}
+\ListProperties(Start2=0)
+\begin{easylist}
+    && Requirements
+    &&& Each Discipline Club shall have the equivalent of an Academic Director with whom the Vice-President Academic shall consult on relevant matters of Academic advocacy. 
+        &&&& The Discipline Club's Academic Director shall also serve as the respective program's LES Program Representative.
+    &&& Each Discipline Club Constitution shall clearly state that the Discipline Club Officers must be elected through the Engineering Society, barring extraneous circumstances, as defined in Bylaw 5. 
+    &&& Amendments to a Discipline Club's Constitution shall be binding given a passing vote by the Board and the Discipline Club as defined in Bylaw 1 and the Discipline Club's Constitution. 
+
+&& Eligibility
+    &&& In the event an existing organization signals their intent to be a Discipline Club, an agreement outlining the preliminary actions to this transition shall be ratified. The agreement may cover the following topics: 
+        &&&& Necessary changes to the organization's governing documents.
+        &&&& The establishment of an Academic Director as per section 1.2.1. 
+        &&&& The timeline of any vote required to formally establish the Discipline Club. 
+\end{easylist}
+\clearpage
+
+\section{Financing}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start2=0)
+\begin{easylist}
+&& Discipline Club Financing
+    &&& Each Discipline Club shall receive a minimum per annum budget allocation of CAD 500 plus CAD 0.5 per student. 
+        &&&& Discipline Club Financing shall be treated as a mandatory expenditure in the Society's budgeting process.
+    &&& The Board may use its budgetary discretion to withhold Discipline Club funding for the following reasons: 
+        &&&& The club does not have a constitution that has been ratified by the Board or is not in compliance with its Board-approved constitution.
+        &&&& The club does not have an operating budget that has been recommended by the Finance Committee.
+        &&&& The club has not run elections in compliance with the Society’s bylaws.
+    &&& In cases where no Chair has been elected, an Interim President may be appointed and the requirements for funding in 2.0.2.c be waived.    
+        &&&& Should a Discipline Club choose to appoint an Interim President, the process for doing so must be clearly outlined in its constitution.
+        &&&& In cases where an Interim President is appointed, the position of President must be opened for nominations in the next applicable election cycle.
+    &&& A Discipline Club is required, upon the request of the Board of Directors, to release a current budget and up-to-date record of financial transactions within thirty (30) days of
+such a request.
+    
+\end{easylist}
+\clearpage
+\end{document}
